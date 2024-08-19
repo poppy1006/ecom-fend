@@ -14,8 +14,8 @@ export async function seedUser(email?: string, password?: string) {
   const user = {
     first_name: "Test",
     last_name: "User",
-    email: email || "test@example.com",
-    password: password || "password",
+    email: email || "poppy@ashikmuh.in",
+    password: password || "poppy",
   }
   try {
     await axios.post("/store/customers", user)
